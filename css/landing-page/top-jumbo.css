@@ -1,9 +1,9 @@
 #top-jumbo{
     padding: 0 0 400px;
-    background: #f9f9f9; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #f9f9f9 0%, #020202 45%, #ff0202 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #f9f9f9 0%,#020202 45%,#ff0202 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #f9f9f9 0%,#020202 45%,#ff0202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #000000;
+    background: -moz-linear-gradient(-45deg, #000000 0%, #C0C0C0 50%, #FF0000 100%);
+    background: -webkit-linear-gradient(-45deg, #000000 0%, #C0C0C0 50%, #FF0000 100%);
+    background: linear-gradient(135deg, #000000 0%, #C0C0C0 50%, #FF0000 100%);
 }
 #top-jumbo:after{
     content: "";
@@ -12,21 +12,75 @@
 }
 
 #top-jumbo .left-side{
-width: 35%;
-display: inline-block;
-float: left;
+    width: 40%;
+    display: inline-block;
+    float: left;
 }
 #top-jumbo .left-side .large-number{
-    font-size: 6rem;
+    font-size: 300px;
+    font-weight: 700;
+    opacity: .1;
+    color: #ff0000;
+    position: relative;
+    left: -20px;
+    top: 45px;
+    z-index: 1;
     }
+#top-jumbo .left-side .info-container{
+    position: relative;
+    top: -50px;
+}
+#top-jumbo .left-side .info-container h1{
+    color: #ff0000;
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    line-height:1;
+}
+#top-jumbo .left-side .info-container P{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000000;
+    text-transform: uppercase;
 
+}
+#top-jumbo .left-side .info-container .email-area{
+    display: inline-block;
+    background: white;
+    border-radius: 35px;
+    padding: 10px;
+}
+#top-jumbo .left-side .info-container .email-area .far{
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"]{
+    background:white;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    text-transform:uppercase;
+    width:230px;
+}
+
+#top-jumbo .left-side .info-container .email-area button{
+    background: red;
+    border-radius: 35px;
+    padding: 20px 50px;
+    font-size: 1rem;
+    text-transform:uppercase;
+}
 #top-jumbo .right-side{
-    width: 65%;
-display: inline-block;
-float: left;
+    width: 60%;
+    display: inline-block;
+    float: left;
 }
 
 #top-jumbo .right-side img{
     width: 100%;
 
 }
+
+

@@ -19,7 +19,7 @@ header:after{
 }
 
 header a{
-    color:#4945BF;
+    color:#FF0000;
     text-decoration: none; 
 }
 
@@ -54,9 +54,7 @@ header .header-buttons .blue-btn{
     text-transform: uppercase;
     position: relative;
     top: 20px;
-    -webkit-box-shadow: 0px 20px 40px -10px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 20px 40px -10px rgba(0,0,0,0.3);
-    box-shadow: 0px 20px 40px -10px rgba(0,0,0,0.3);
+  
 }
 header .header-buttons .blue-btn .fas{
     margin-left: 15px;
@@ -70,7 +68,5 @@ header .header-buttons .orange-btn{
     text-transform: uppercase;
     position: relative;
     top: 20px;
-    -webkit-box-shadow: 0px 20px 40px -10px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 20px 40px -10px rgba(0,0,0,0.3);
-    box-shadow: 0px 20px 40px -10px rgba(0,0,0,0.3);
+   
 }
